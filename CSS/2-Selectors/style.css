@@ -1,0 +1,9 @@
+li {
+    color: blue;
+}
+.missing-ingredient {
+    color: red;
+}
+#secret-ingredient {
+    color: pink;
+}
