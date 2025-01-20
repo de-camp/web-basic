@@ -1,3 +1,6 @@
+h1 {
+    font-family: Montserrat;
+}
 p {
     color: blue; /*It's a good practice to put an absolute value here, this is because each browser can interpret colors differently*/
 

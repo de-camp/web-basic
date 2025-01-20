@@ -1,0 +1,26 @@
+/*The @font-face rule in CSS allows you to define custom fonts that can be loaded and used on your web pages. 
+This is particularly useful when you want to use a specific font that may not be available on all users' devices.
+
+1. @font-face Rule: This rule is used to define a custom font.
+2. font-family: This specifies the name of the font family. In this case, all three @font-face rules define the     same font family, "Montserrat".
+3. src: This specifies the location of the font file. The url() function is used to provide the path to the font file, and the format() function specifies the font format (e.g., 'truetype').
+4. font-weight: This specifies the weight (thickness) of the font. The values 400, 600, and 900 correspond to regular, bold, and black weights, respectively.
+*/
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat_Static/Montserrat-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat_Static/Montserrat-Bold.ttf) format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat_Static/Montserrat-Black.ttf) format('truetype');
+    font-weight: 900;
+}
