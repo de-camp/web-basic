@@ -1,0 +1,17 @@
+body {
+    display: flex; /* Changing display type from block to flex to be able to center the form */
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 300px;
+    background: red;
+    padding: 10px;
+    box-sizing: border-box; /* Including padding and border in the width */
+}
+input {
+    display: block; /* Changing type of display from inline-block to block to be able to justify-self */
+    width: 80%; /* 80% of the parent element */
+    justify-self: center;
+}

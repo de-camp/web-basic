@@ -1,0 +1,32 @@
+/*There are different ways to write the desired padding, one of them is using shorthand notation, also top/bottom and right/leftshorthand and the last one would be to individually put a padding, this also applies to margin*/
+
+/*For example
+    1. padding: 10px; -> All sides will have a padding of 10px
+    2. padding: 10px 20px; -> Top and bottom will have 10px padding and left and right will have 20px padding
+    3. padding: 10px 20px 30px; -> Top will have 10px padding, right and left will have 20px padding and bottom will have 30px padding
+    4. padding: 10px 20px 30px 40px; -> Top will have 10px padding, right will have 20px padding, bottom will have 30px padding and left will have 40px padding
+
+    5. padding-top: 10px; -> Only top will have 10px padding
+    5. padding-right: 10px; -> Only right will have 10px padding
+    5. padding-bottom: 10px; -> Only bottom will have 10px padding
+    5. padding-left: 10px; -> Only left will have 10px padding
+*/
+
+.form {
+    background: red;
+    padding: 10px; /*Increases the distabce between content area (input boxes) and border of the form element*/
+    margin-bottom: 10px; /*Adds margin to the bottom of the form*/
+}
+.form_input {
+    padding: 5px; /*Increases the distance between the content area (text) and the border of input, if box-sizin is
+    content-box then it would increase the size of the box, check box example below*/
+}
+.example_box {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+}
+.example_box_2 {
+    padding: 10px;
+}

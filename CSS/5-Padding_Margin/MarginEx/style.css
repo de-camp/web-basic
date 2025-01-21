@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+}
+.box {
+    background: red;
+    width: 150px;
+    height: 150px;
+    margin: 20px; /*NOTE: Boxes below a previous box will experience (Margin collapsing), depending on whether two elements whose margins touch have positive or negative margins, the results will be different:
+
+    * Two positive margins will combine to become one margin. Its size will be equal to the largest individual margin.
+    * Two negative margins will collapse and the smallest (furthest from zero) value will be used.
+    * If one margin is negative, its value will be subtracted from the total.*/
+}
