@@ -1,0 +1,32 @@
+div {
+    background: red;
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    color: white;
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: chartreuse;
+
+    /* The 3 previous properties can be summarized in: */
+    border: 8px double blue;
+    border-radius: 50px;
+}
+box {
+    margin-top: 10px;
+}
+
+/* There's a difference when border radius is applied using pixels vs percentages */
+.two {
+    border-radius: 50%;
+}
+
+.three {
+    border-top: 5px solid greenyellow;
+    border-top-left-radius: 50px; /* 50px value was given just because in this example */
+    border-top-right-radius: 50px; /* 50px value was given just because in this example */
+
+    border-bottom: 10px dotted blue;
+}

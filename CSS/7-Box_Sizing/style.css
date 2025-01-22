@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: #ff0000;
+    margin: 10px;
+}
+/* With Box Sizing (Content Box), when a width and height is given to an element, those  properties are applied to the content area of the box, this means that if padding or a border it's added to the general box the total size of the box will increase */
+.content_box {
+    padding: 20px;
+    border: 10px solid #000000;
+}
+/* With Box Sizing (Border Box), when a width and height is given to an element, those  properties are applied to the border area of the box, this means that if padding or a border it's added to the general box the total size of the box will remain the same but the content area will shrink */
+.border_box {
+    box-sizing: border-box;
+    padding: 20px;
+    border: 10px solid #000000;
+}
