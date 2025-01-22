@@ -1,0 +1,28 @@
+/* There are different type of units that can be used to give numeric values of length to different properties, these can be divided in two main types (absolute and relative) lengths */
+
+/* Absolute Length units: they are not relative to anything else, and are generally considered to always be the same size. For example -> cm mm Q in pc pt and (px) */
+
+/* Relative Length units: are relative to something else. For example -> em is relative to the font size of the parent element, rem is relative to the font size of the root element. vh and vw are relative to the viewport's height and width (elements increase or decrease based on the viewport)*/
+div {
+    background: #ededed;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+    margin: auto;
+    width: 80vw;
+    height: 80vh;
+    margin-top: 10vh;
+    box-sizing: border-box;
+}
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+span {
+    color: #999;
+    font-size: 16px;
+    font-weight: 100;
+}
+p {
+    color: #555;
+}
