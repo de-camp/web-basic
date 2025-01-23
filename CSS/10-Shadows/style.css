@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+.box {
+    width: 300px;
+    /* height: 400px; */
+    /* margin: auto; */
+    background: #eaeaea;
+    box-shadow: 10px 10px 20px 0px #000;
+    /* First pixel value controls "x" axis, second value
+     controls "y" axis, third value controls blur, fourth
+     value controls the expansion of shadow and final value
+     is the color  */
+
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+}
+.box2 {
+    margin-left: 40px;
+    box-shadow: 0 0 20px 0 #0009;
+}
+img[alt="card-image"] {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 10px 0 #0009;
+}
+.logo {
+    display: block;
+    margin: 40px 0;
+
+    /* Giving a shadow to a transpartent image (only works with images that have an alpha channel) */
+    filter: drop-shadow(0 0 10px #0009); /* Be careful, drop shadow is different than box-shadow */
+}
+h2, p {
+    margin: 0px 10px;
+    color: #333;
+}
+h2 {
+    margin-top: 16px;
+}
