@@ -1,0 +1,22 @@
+body {
+    background: #0f0;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: #f3a2; /* #f3a2 The last value allows me to show what's behind 
+    my box, this can be used for modals */
+    position: absolute;
+    top: 0;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    margin: 140px 20px 0;
+    /* This is another way to add pictures to a webpage */
+    background-image: url('https://img.redbull.com/images/c_crop,x_484,y_0,h_716,w_573/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2019/03/22/e8f08713-04ff-4d2a-87cd-33aeb9ed13a7/teemo-league-of-legends-champion');
+    background-size: cover;
+    background-position: center; /* Coordinates can be given as values, for example 100px 50px */
+    background-repeat: no-repeat;
+}
