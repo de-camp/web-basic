@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffaa00;
+}
+.box {
+    width: 100%;
+    height: 200px;
+    /* The following is a way to create linear gradients, there are other type of gradients and also angles
+    can be used, more than 2 colors can be used also */
+    background-image: linear-gradient(#000, transparent);
+}
+.box-2 {
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    background: linear-gradient(to bottom, transparent, #000), url('https://img.redbull.com/images/c_crop,x_484,y_0,h_716,w_573/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2019/03/22/e8f08713-04ff-4d2a-87cd-33aeb9ed13a7/teemo-league-of-legends-champion');
+}
+h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 16px; /* Didn't use margin-top to avoid margin collapse, to separate child elements from
+    parent elements it's best to use padding */
+}

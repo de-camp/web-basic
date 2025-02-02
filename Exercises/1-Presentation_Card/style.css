@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background: #fff;
+}
+.card {
+    background: #6ac;
+    color: white;
+    text-align: center;
+    width: 400px;
+    margin: 40px auto 40px;
+    padding: 30px 20px;
+    box-shadow: 0 0 30px #0006;
+    border-radius: 8px;
+}
+.card_title {
+    display: inline-block;
+    margin: 8px 0px 4px;
+    font-size: 1.75rem;
+}
+.card_subtitle {
+    font-size: 1.1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+.card_content {
+    font-size: 0.875rem;
+    text-align: justify;
+    line-height: 20px;
+}
+.card_img {
+    display: block; /* This was done to be able to use margin with img tag */
+    margin: 0 auto;
+    width: 200px;
+    border-radius: 50%;
+}
+.red {
+    background: #f00;
+}
+.green {
+    background: #0a4;
+}
