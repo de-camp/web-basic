@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+video {
+    display: block; /* Video tag display is inline by default */
+    width: 1280px;
+    height: 720px;
+    background: #000; /* This was previously used when the resolution of a
+    video wasn't correct */
+    margin: 30px auto 0;
+}
+
+audio {
+    display: block;
+    margin: 10px auto 0;
+}

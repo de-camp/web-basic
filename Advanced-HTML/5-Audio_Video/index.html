@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio and Video</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--In order for a video to start automatically the attribute muted needs
+    to be included-->
+    <!-- Message between video tags is placed in case an old browser doesn't
+     support videos -->
+    <video src="Video/Power Rangers Theme.mp4" controls autoplay muted>
+      Your browser doesn't support video element
+    </video>
+
+    <!-- It's not a good practice to put videos on audio tags, as the complete
+     video has to load to be able to be converted to audio, just used as an
+     example -->
+    <audio src="Video/Power Rangers Theme.mp4" controls autoplay muted>
+        Your browser doesn't support audio element
+    </audio>
+  </body>
+</html>
