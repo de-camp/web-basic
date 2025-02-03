@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #222;
+}
+.form_input {
+    text-align: center;
+    margin: 20px 0;
+}
+select {
+    padding: 6px 10px;
+}
+input[list="example2"] {
+    padding: 6px 10px;
+}
